@@ -18,6 +18,6 @@ searchBtn.addEventListener("click", () => {
         result.innerHTML = `
         <img src="${data[0].flags.svg}"
         class="flag-img">
-        `
+        `;
     });
 });
